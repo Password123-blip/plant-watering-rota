@@ -1,0 +1,69 @@
+{
+  "slug": "plant-watering-rota",
+  "title": "Plant Watering Rota",
+  "tagline": "Stop killing your plants",
+  "description": "Stop killing your plants.",
+  "category": "Home",
+  "accent": "#4f46e5",
+  "accent_soft": "#eef2ff",
+  "table": {
+    "name": "waterings",
+    "singular": "watering",
+    "plural": "waterings",
+    "fields": [
+      {
+        "name": "plant",
+        "label": "Plant",
+        "type": "text",
+        "required": true,
+        "placeholder": "Money plant"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text",
+        "required": true,
+        "placeholder": "Balcony"
+      },
+      {
+        "name": "watered_on",
+        "label": "Watered on",
+        "type": "date",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "amount_ml",
+        "label": "Water (ml)",
+        "type": "int",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "name": "notes",
+        "label": "Notes",
+        "type": "text",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "\ud83e\udeb4",
+      "title": "Per-plant history",
+      "body": "Each plant keeps its own watering record."
+    },
+    {
+      "icon": "\ud83d\udca7",
+      "title": "Volume tracking",
+      "body": "Millilitres, not guesses."
+    },
+    {
+      "icon": "\ud83c\udfe0",
+      "title": "By location",
+      "body": "Balcony versus indoors behaves differently."
+    }
+  ],
+  "seed": []
+}
